@@ -21,10 +21,10 @@ Commands :
 Execute the following commands to download the script :
 ```console
 $ cd /etc/init.d/
-$ wget https://raw.github.com/crazy-max/ftp-sync/master/ftp-sync.sh -O ftp-sync --no-check-certificate
+$ wget https://raw.github.com/milo-ft/ftp-sync/master/ftp-sync.sh -O ftp-sync --no-check-certificate
 $ chmod +x ftp-sync
 $ mkdir /etc/ftp-sync/
-$ wget https://raw.github.com/crazy-max/ftp-sync/master/ftp-sync.conf -O /etc/ftp-sync/ftp-sync.conf --no-check-certificate
+$ wget https://raw.github.com/milo-ft/ftp-sync/master/ftp-sync.conf -O /etc/ftp-sync/ftp-sync.conf --no-check-certificate
 ```
 
 Before running the script, you must change some vars in the config file ``/etc/ftp-sync/ftp-sync.conf``.
